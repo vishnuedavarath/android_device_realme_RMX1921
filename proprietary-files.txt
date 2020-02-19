@@ -1,0 +1,76 @@
+# ACDB
+vendor/etc/acdbdata/19651/Bluetooth_cal.acdb
+vendor/etc/acdbdata/19651/General_cal.acdb
+vendor/etc/acdbdata/19651/Global_cal.acdb
+vendor/etc/acdbdata/19651/Handset_cal.acdb
+vendor/etc/acdbdata/19651/Hdmi_cal.acdb
+vendor/etc/acdbdata/19651/Headset_cal.acdb
+vendor/etc/acdbdata/19651/Speaker_cal.acdb
+
+# ADSP Modules
+vendor/lib/libsnpe_dsp_domains_v2.so
+vendor/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
+
+# Camera
+vendor/etc/camera/arc_golden.bin
+vendor/etc/camera/distortionParams.bin
+vendor/etc/camera/mtStereoParams.bin
+vendor/etc/camera/mwStereoParams.bin
+vendor/lib/camera/com.qti.sensor.gc2375h.so
+vendor/lib/camera/com.qti.sensor.hi846.so
+vendor/lib/camera/com.qti.sensor.s5k3p9sp.so
+vendor/lib/camera/com.qti.sensor.s5kgw1.so
+vendor/lib/camera/com.qti.sensor.sp2509v.so
+vendor/lib/camera/com.qti.sensormodule.holitech_gc2375h.bin
+vendor/lib/camera/com.qti.sensormodule.holitech_sp2509v.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_hi846.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1_evt0_2.bin
+vendor/lib/camera/com.qti.tuned.holitech_gc2375h.bin
+vendor/lib/camera/com.qti.tuned.holitech_sp2509v.bin
+vendor/lib/camera/com.qti.tuned.sunny_hi846.bin
+vendor/lib/camera/com.qti.tuned.sunny_s5kgw1.bin
+vendor/lib/camera/components/com.oppo.node.sat.so
+vendor/lib/libarcsoft_distortion_correction.so
+vendor/lib/libarcsoft_distortion_correction_710.so
+vendor/lib/libarcsoft_portraitSN_hvx_stub.so
+vendor/lib/libarcsoft_portrait_super_night_raw.so
+vendor/lib/libtriplecam_image_optical_zoom.so
+vendor/lib/libtriplecam_optical_zoom_control.so
+vendor/lib/libtriplecam_video_optical_zoom.so
+vendor/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin
+vendor/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_hi846.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_evt0_2.bin
+vendor/lib64/camera/com.qti.tuned.holitech_gc2375h.bin
+vendor/lib64/camera/com.qti.tuned.holitech_sp2509v.bin
+vendor/lib64/camera/com.qti.tuned.sunny_hi846.bin
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
+vendor/lib64/libarcsoft_distortion_correction.so
+vendor/lib64/libtriplecam_image_optical_zoom.so
+vendor/lib64/libtriplecam_optical_zoom_control.so
+vendor/lib64/libtriplecam_video_optical_zoom.so
+
+# Display calibration data
+vendor/etc/qdcm_calib_data_oppo18081samsung_ams641rw01_1080_2340_cmd_mode_dsi_panel.xml
+
+# Fast Charge Firmware
+vendor/firmware/fastchg/19651/oppo_vooc_fw.bin
+
+# Oppo HIDL hals
+vendor/lib/libOPPORectify.so
+vendor/lib64/libOPPORectify.so
+
+# Touchscreen firmware
+vendor/firmware/tp/19651/FW_S3706_SAMSUNG.img
+vendor/firmware/tp/19651/FW_S3706_SAMSUNG_FAE.img
+vendor/firmware/tp/19651/LIMIT_S3706_SAMSUNG.img
+
+# UFS Firmware
+vendor/firmware/ufs/SAMSUNG-KM2B8001CM-BB01.bin
+vendor/firmware/ufs/SAMSUNG-KM5V7001DM-B621.bin
+vendor/firmware/ufs/SAMSUNG-KM8B8001JM-BC01.bin
+vendor/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin
+vendor/firmware/ufs/SKhynix-H9HQ16AECMMDAR.bin
