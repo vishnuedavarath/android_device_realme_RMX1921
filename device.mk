@@ -30,6 +30,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from Realme sdm710-common
 $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/mixer_paths_19651.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_19651.xml
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \
