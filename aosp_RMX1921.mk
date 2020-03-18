@@ -4,12 +4,12 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common Evolution X stuff.
+# Inherit some common Extended-UI stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BOOT_ANIMATION_RES_EVO := true
 TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device.
