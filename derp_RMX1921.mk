@@ -13,6 +13,9 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# Official-ify
+DERP_BUILDTYPE := Official
+
 # Inherit from RMX1921 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
