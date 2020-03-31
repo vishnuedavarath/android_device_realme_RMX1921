@@ -4,15 +4,18 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Potato stuff.
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1921
-PRODUCT_NAME := lineage_RMX1921
+PRODUCT_NAME := potato_RMX1921
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme XT
 PRODUCT_MANUFACTURER := Realme
