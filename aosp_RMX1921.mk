@@ -5,6 +5,9 @@
 #
 
 # Inherit some common AEX stuff.
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Bootanimation res
