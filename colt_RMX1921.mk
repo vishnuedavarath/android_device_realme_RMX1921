@@ -5,7 +5,7 @@
 #
 
 # Inherit some common ColtOS stuff.
-$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+$(call inherit-product, vendor/colt/config/common.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080x2340
