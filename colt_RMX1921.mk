@@ -5,7 +5,7 @@
 #
 
 # Inherit some common ColtOS stuff.
-$(call inherit-product, vendor/colt/config/common.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080x2340
@@ -30,3 +30,6 @@ BUILD_FINGERPRINT := "realme/RMX1921/RMX1921:10/QKQ1.190918.001/1579185288:user/
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1921" \
     TARGET_DEVICE="RMX1921"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer="VishnuJith"
