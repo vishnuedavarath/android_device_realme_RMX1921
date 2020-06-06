@@ -11,7 +11,7 @@ $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1080X2340
+TARGET_BOOT_ANIMATION_RES := 1080x2340
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1921
