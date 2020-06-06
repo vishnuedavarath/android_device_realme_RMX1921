@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1921.mk
+    $(LOCAL_DIR)/du_RMX1921.mk

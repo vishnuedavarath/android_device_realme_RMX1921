@@ -5,10 +5,12 @@
 #
 
 # Inherit some common AEX stuff.
-WITH_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-$(call inherit-product, vendor/aosp/common.mk)
+# WITH_GAPPS := true
+# TARGET_GAPPS_ARCH := arm64
+# IS_PHONE := true
+
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
+
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 2280
@@ -18,7 +20,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1921
-PRODUCT_NAME := aosp_RMX1921
+PRODUCT_NAME := du_RMX1921
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme XT
 PRODUCT_MANUFACTURER := Realme
