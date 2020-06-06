@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_RMX1921.mk
+    $(LOCAL_DIR)/colt_RMX1921.mk
