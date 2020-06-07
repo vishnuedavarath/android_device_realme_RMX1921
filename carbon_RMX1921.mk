@@ -26,7 +26,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1921
-PRODUCT_NAME := aosp_RMX1921
+PRODUCT_NAME := carbon_RMX1921
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme XT
 PRODUCT_MANUFACTURER := Realme
