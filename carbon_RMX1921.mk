@@ -12,14 +12,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/carbon/config/gsm.mk)
 
-# WITH_GAPPS := true
-# TARGET_GAPPS_ARCH := arm64
-# IS_PHONE := true
-
 $(call inherit-product, vendor/carbon/config/common.mk)
 
-# Bootanimation res
-TARGET_BOOT_ANIMATION_RES := 2280
+
+# TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_BOOT_ANIMATION_RES := 1080
+# IS_PHONE := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+
 
 # Inherit from RMX1921 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
